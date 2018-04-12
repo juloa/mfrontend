@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --config ./node_modules/react-starter/webpack.config.js --hot --mode development --open",
+    "build": "webpack --config ./node_modules/react-starter/webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "react-starter": "git+https://github.com/juloa/react-starter.git"
+  }
+}
